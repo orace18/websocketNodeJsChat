@@ -1,0 +1,30 @@
+{
+  "name": "nouveau-dossier",
+  "version": "1.0.0",
+  "description": "Web socket pour chat",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orace18/websocketNodeJsChat.git"
+  },
+  "keywords": [
+    "chat",
+    "web",
+    "socket"
+  ],
+  "author": "Orace EDJO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orace18/websocketNodeJsChat/issues"
+  },
+  "homepage": "https://github.com/orace18/websocketNodeJsChat#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "moment": "^2.30.1",
+    "ws": "^8.16.0"
+  }
+}
